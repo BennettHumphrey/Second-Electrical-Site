@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <meta name="description" content="electrical template 2">
+    <title>Fake Electric</title>
+    <link href="resources/style.css" rel="stylesheet">
+    <link rel="icon" href="./resources/imgs/bolt.svg">
+    <script defer src="./resources/dropdown-menu.js"></script>
+    <script defer src="./resources/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="phone">Call us! 250-555-5555</h1>
+        <img src="resources/imgs/company-logo.png" height="50px" width="50px" class="mobile-logo" alt="company-logo">
+    </header>
+     
+    <div>
+      <div onclick="myFunction()" id="drop-btn">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#" class="link link-home">Home</a>
+          <a href="./sub-pages/resi.html" class="link">Residential</a>
+          <a href="./sub-pages/commercial.html" class="link">Commercial</a>
+          <a href="./sub-pages/Industrial.html" class="link">Industrial</a>
+          <a href="./sub-pages/lighting.html" class="link">Lighting Design</a>
+          <a href="./sub-pages/other.html" class="link">Other Services</a>
+          <a href="./sub-pages/contact.html" class="link">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="desktop-nav">
+        <a href="#"><img src="./resources/imgs/company-logo.png" height="50px" width="50px" class="desktop-logo" alt="company-logo"></a>
+        <a href="#" class="link link-home" id="desktop-nav-current-page">Home</a>
+        <a href="./sub-pages/resi.html" class="link">Residential</a>
+        <a href="./sub-pages/commercial.html" class="link">Commercial</a>
+        <a href="./sub-pages/Industrial.html" class="link">Industrial</a>
+        <a href="./sub-pages/lighting.html" class="link">Lighting Design</a>
+        <a href="./sub-pages/other.html" class="link">Other Services</a>
+        <a href="./sub-pages/contact.html" class="link">Contact Us</a>
+      </div>
+
+       <main id="main">
+        
+        
+        <div class="slideshow-container">
+        
+          <a href="./sub-pages/resi.html" aria-label="residential services">
+            <div class="mySlides fade">
+              <img class="slideImg" srcset="./resources/imgs/Office-Interior-600.webp 600w, ./resources/imgs/Office-Interior-900.webp 900w, ./resources/imgs/Office-Interior-1200.webp 1200w, ./resources/imgs/Office-Interior-1680.webp 1800w"
+               sizes="(max-width: 720px) 600px, (max-width: 1024px) 900px, (max-width: 1400px) 1200px, 1680px" alt="Office Interior" src="./resources/imgs/template-1-600.webp">
+              <div class="mySlides-overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mySlides-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                </svg>
+                <h1>Residential Services</h1>
+                <div class="mySlides-lines">
+                  <div class="mySlides-line"></div>
+                  <svg class="mySlides-lines-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                  </svg>
+                  <div class="mySlides-line"></div>
+                </div>
+                <p>Service upgrades, renovations, new construction, and more!</p>
+              </div>
+            </div>
+          </a>
+          
+          <a href="./sub-pages/commercial.html" aria-label="commercial services">
+            <div class="mySlides fade">
+              <img class="slideImg" srcset="./resources/imgs/city-skyline-600.webp 600w, ./resources/imgs/city-skyline-900.webp 900w, ./resources/imgs/city-skyline-1200.webp 1200w, ./resources/imgs/city-skyline-1800.webp 1800w"
+               sizes="(max-width: 720px) 600px, (max-width: 1024px) 900px, (max-width: 1400px) 1200px, 1800px" alt="City Skyline" src="./resources/imgs/template-1-600.webp">
+              <div class="mySlides-overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mySlides-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z" />
+                </svg>
+                <h1><span class="com-stroke">Comm</span>ercial Services</h1>
+                <div class="mySlides-lines">
+                  <div class="mySlides-line"></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="orange" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange" class="w-6 h-6 mySlides-lines-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                  </svg>
+                  <div class="mySlides-line"></div>
+                </div>
+                <p>Data wiring, alarm systems, new construction, and much more!</p>
+              </div>
+            </div>
+          </a>
+        
+          <a href="./sub-pages/lighting.html" aria-label="lighting services">
+            <div class="mySlides fade">
+              <img class="slideImg" srcset="./resources/imgs/Light-600.webp 600w, ./resources/imgs/Light-900.webp 900w, ./resources/imgs/Light-1200.webp 1200w, ./resources/imgs/Light-1680.webp 1800w"
+               sizes="(max-width: 720px) 600px, (max-width: 1024px) 900px, (max-width: 1400px) 1200px, 1680px" alt="Light with Blue Sky Background" src="./resources/imgs/template-1-600.webp">
+              <div class="mySlides-overlay">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mySlides-icon">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+                </svg>
+                <h1>Lighting D<span class="lighting-span-2">esign</span></h1>
+                <div class="mySlides-lines">
+                  <div class="mySlides-line"></div>
+                  <svg class="mySlides-lines-icon" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                  </svg>
+                  <div class="mySlides-line"></div>
+                </div>
+                <p>Our electricians have a wealth of exp<span class="lighting-span-2">erience</span> and knowledge with the latest technology!</p>
+              </div>
+            </div>
+          </a>
+        
+          <p class="prev" onclick="plusSlides(-1)">&#10094;</p>
+          <p class="next" onclick="plusSlides(1)">&#10095;</p>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <div class="phone-number-section">
+          <div class="phone-number">
+            <h2>Office Line</h2>
+            <p>1.250.555.5555</p>
+          </div>
+          <div class="phone-number">
+            <h2>Emergency</h2>
+            <p>1.250.555.5555</p>
+          </div>
+          <div class="phone-number">
+            <h2>Working Hours</h2>
+            <p>9:00am - 6:00pm</p>
+          </div>
+        </div>
+
+        <div class="about">
+          <div class="bg">
+          <div class="opacity">
+            
+            <h2>Fake Electric, Electrician Services in Victoria</h2>
+            <div class="about-line"></div>
+            <p>Since it began in 1980, Fake Electric has been known for its swift, attentive service, high-quality work, and competitive prices. Master Electrician Mark Smith has years of experience with electrical jobs from big to small — everything from replacing a single light to wiring an entire warehouse with a team. He is an expert in complex installations, electrical safety, and system upgrades. Fake Electric promises quality work and superb customer service for its residential and commercial clients — many who have been using us for years!</p>
+            <section class="about-windows-section">
+              <a class="about-window-link"  id="window-1" href="./sub-pages/contact.html"
+              ><div class="about-window">
+                <svg class="checkmark" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='none' stroke='currentColor' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'><polyline fill="none" points="10,60 40,85 85,15 "/></svg>
+                <h3>Quality Guarantee</h3>
+                <p>Reliable service is what every customer gets when they have a Fake Electric electrician handling their electrical problems</p>
+                <button class="about-btn">Contact Us</button>
+              </div></a>
+              <a class="about-window-link" id="window-2" href="./sub-pages/contact.html">
+                <div class="about-window middle-window">
+                <svg class="phone-icon" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path id="window-2-phone" d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                  <path class="window-2-call-marks" d="M15 7a2 2 0 0 1 2 2" />
+                  <path class="window-2-call-marks" d="M15 3a6 6 0 0 1 6 6" />
+                </svg>
+                <h3>24/7 Service</h3>
+                <p>Our technicians are available 24/7 for any emergency calls, helping with all that life can throw at you</p>
+                <button class="about-btn">Contact Us</button>
+              </div></a>
+              <a class="about-window-link" id="window-3" href="./sub-pages/contact.html">
+                <div class="about-window">
+                <svg class="shield-tick" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M7.5 1.5l.248-.434L7.5.924l-.248.142.248.434zm-7 4l-.248-.434L0 5.21v.29h.5zm14 0h.5v-.29l-.252-.144-.248.434zm-7 10l-.137.48.137.04.137-.04-.137-.48zM7 11l-.32.384.392.327.318-.399L7 11zm.252-9.934l-7 4 .496.868 7-4-.496-.868zM0 5.5v.72h1V5.5H0zm15 .72V5.5h-1v.72h1zm-.252-1.154l-7-4-.496.868 7 4 .496-.868zM7.638 15.98A10.152 10.152 0 0015 6.22h-1a9.151 9.151 0 01-6.637 8.8l.274.96zM0 6.22a10.15 10.15 0 007.363 9.76l.274-.96A9.151 9.151 0 011 6.22H0zm3.68 2.664l3 2.5.64-.768-3-2.5-.64.768zm3.71 2.428l4-5-.78-.624-4 5 .78.624z" fill="currentColor"></path></svg>
+                <h3>Insured, Bonded, Licensed</h3>
+                <p>Our electricians are fully licensed, with fully equiped vans to help with all your electrical needs</p>
+                <button class="about-btn">Contact Us</button>
+              </div>
+            </a>
+            </section>
+          </div>
+        </div>
+        </div>
+
+        <div class="request-quote">
+          <h2>Trusted Electricians, Home Advisor Approved</h2>
+          <a href="./sub-pages/contact.html"><button>REQUEST A QUOTE</button></a>
+        </div>
+
+                    <section class="reviews-section">
+                      <h2>Reviews</h2>
+                      <div class="reviews-line"></div>
+
+                      <div class="review-slideshow-container">
+                        <div class="myReviewSlides fade">
+                          <p class="slideReview">We asked Michael to stop by and take a look at our house. There were numerous repairs that needed to be done, but the main thing was replacing the knob and tube system. He was punctual, did a thorough inspection of our entire home, and sent a reasonable quote as promised. Thank you for your professionalism! It was a pleasure working with you!</p>
+                          <p class="slideReview">Carlos Gonzales</p>
+                        </div>
+                      
+                        <div class="myReviewSlides fade">
+                          <p class="slideReview">I have an older condo, and I needed my breakers upgraded, and also some wires replaced but two other electricians said the walls and floor were not concrete so it couldn't be done.  But Dave is great, and he did the job well.  Professional, reliable, great value, and was not afraid to take on a difficult task.</p>
+                          <p class="slideReview">Mike Smith</p>
+                        </div>
+                      
+                        <div class="myReviewSlides fade">
+                          <p class="slideReview">Mark was knowledgeable, responsive, punctual, and his rate was very competitive. I am very happy with the work done. Will definitely call him again.</p>
+                          <p class="slideReview">Mark Davis</p>
+                        </div>
+                      
+                        <div class="myReviewSlides fade">
+                          <p class="slideReview">Quick service, reasonable pricing. Got the job done perfectly. Can't speak highly enough of them. They are my definitely my first call next time.</p>
+                          <p class="slideReview">Kenny Rogers</p>
+                        </div>
+                      
+                        <p class="prevReview" onclick="plusReviewSlides(-1)">&#10094;</p>
+                        <p class="nextReview" onclick="plusReviewSlides(1)">&#10095;</p>
+                      </div>
+                      <br>
+                      
+                      <div style="text-align:center">
+                        <span class="reviewDot" onclick="currentReviewSlide(1)"></span>
+                        <span class="reviewDot" onclick="currentReviewSlide(2)"></span>
+                        <span class="reviewDot" onclick="currentReviewSlide(3)"></span>
+                        <span class="reviewDot" onclick="currentReviewSlide(4)"></span>
+                      </div>
+
+                      <a href=""><button class="reviews-button">READ MORE REVIEWS ON REVIEW WEBSITE</button></a>
+                    </section>
+
+        <div class="semi-footer">
+          <div class="semi-footer-info">
+            <h4>Fake Electrical</h4>
+            <p>Office: 250-555-5555</p>
+            <p>Cell: 250-555-5556</p>
+            <p>Cell: 250-555-5557</p>
+            <p>1234 Fake St, Victoria BC V1E 9U4</p>
+            <br>
+            <p>Electrical Troubleshooting Specialist</p>
+            <p>Emergency Services 24/7 Service</p>
+            <br>
+            <p>Insured, Bonded, Licensed</p>
+          </div>
+          <div class="semi-footer-menu">
+            <h4>Our Services</h4>
+            <ul>
+              <li>
+                <a href="./sub-pages/resi.html">Residential Services</a>
+              </li>
+              <li>
+                <a href="./sub-pages/commercial.html">Commercial Services</a>
+              </li>
+              <li>
+                <a href="./sub-pages/Industrial.html">Industrial Services</a>
+              </li>
+              <li>
+                <a href="./sub-pages/lighting.html">Electrical Lighting Design</a>
+              </li>
+              <li>
+                <a href="./sub-pages/other.html">Other Electrical Services</a>
+              </li>
+              <li>
+                <a href="./sub-pages/contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="semi-footer-guarentees">
+            <h4>Satisfaction Guarenteed</h4>
+            <div class="semi-footer-guarentees-grid">
+              <figure>
+                <img src="./resources/imgs/partner-logo.svg" alt="Logo">
+                <figcaption>Seal of Approval</figcaption>
+              </figure>
+              <figure>
+                <img src="./resources/imgs/partner-logo.svg" alt="Logo">
+                <figcaption>Seal of Approval</figcaption>
+              </figure>
+              <figure>
+                <img src="./resources/imgs/partner-logo.svg" alt="Logo">
+                <figcaption>Partner Logo</figcaption>
+              </figure>
+              <figure>
+                <img src="./resources/imgs/partner-logo.svg" alt="Logo">
+                <figcaption>Partner Logo</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p>Website developed by Bennett Humphrey</p>
+          <p>bennetthumphrey98@gmail.com</p>
+          <br>
+          <p class="copyright">Copywright SomeCompany 2022</p>
+        </footer>
+      </div>
+      </body>
+
+</html>
